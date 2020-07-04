@@ -102,10 +102,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="clearfix"></div>
 					</div>
 				</nav>
-				<!-- primary menu -->
 				<nav class="navbar navbar-fixed-top navbar-default">
 					<div class="container">
-						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 								<span class="sr-only">Toggle navigation</span>
@@ -113,75 +111,60 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<!-- logo area -->
 							<a class="navbar-brand" href="#home">
-								<!-- logo image -->
 								<img class="img-responsive" src="<?php echo base_url().ASSERTS;?>img/logo/logo.png" alt="" />
 							</a>
 						</div>
 
-						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#latestalbum">Latest Album</a></li>
-								<li><a href="#featuredalbum">Featured Album</a></li>
-								<li><a href="#joinus">Join Us</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
-								<li><a href="#events">Events</a></li>
-								<li><a href="#team">Team</a></li>
+								<li><a href="#main">Home</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div><!-- /.container-fluid -->
-				</nav>
-			</header>
-			<!--/ header end -->
-			
-			<!-- banner area -->
-			<div class="banner">
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
-						<div class="item active">
-							<img src="<?php echo base_url().ASSERTS;?>img/banner/b1.jpg" alt="...">
-							<div class="container">
-								<!-- banner caption -->
-								<div class="carousel-caption slide-one">
-									<!-- heading -->
-									<h2 class="animated fadeInLeftBig"><i class="fa fa-music"></i> Melodi For You!</h2>
-									<!-- paragraph -->
-									<h3 class="animated fadeInRightBig">Find More Innovative &amp; Creative Music Albums.</h3>
-									<!-- button -->
-									<a href="#" class="animated fadeIn btn btn-theme">Download Here</a>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<img src="<?php echo base_url().ASSERTS;?>img/banner/b2.jpg" alt="...">
-							<div class="container">
-								<!-- banner caption -->
-								<div class="carousel-caption slide-two">
-									<!-- heading -->
-									<h2 class="animated fadeInLeftBig"><i class="fa fa-headphones"></i> Listen It...</h2>
-									<!-- paragraph -->
-									<h3 class="animated fadeInRightBig">Lorem ipsum dolor sit amet, consectetur elit.</h3>
-									<!-- button -->
-									<a href="#" class="animated fadeIn btn btn-theme">Listen Now</a>
-								</div>
-							</div>
 						</div>
 					</div>
-
-					<!-- Controls -->
-					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-						<span class="fa fa-arrow-left" aria-hidden="true"></span>
-					</a>
-					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-						<span class="fa fa-arrow-right" aria-hidden="true"></span>
-					</a>
+				</nav>
+			</header>
+			<div class="main pad" id="main">
+				<div class="container">
+					<div class="wrapper">
+					  <div class="row">
+					  	<div class="col-md-4">
+					  		<h1>Please enter the cords...<span style="margin-left: 50px;">&</span></h1>
+					  	</div>
+					  	<div class="col-md-6">
+					  		<div class="custom-select">
+							  <select>
+							    <option value="0">Select Instrument:</option>
+							    <option value="1">Guitar</option>
+							    <option value="2">Mouth Organ</option>
+							  </select>
+							</div>
+					  	</div>
+					  </div>
+					  <textarea name="the-textarea" id="the-textarea" maxlength="300" placeholder="Start Typing..."autofocus></textarea>
+					</div>
+					<div style="margin: 30px;">
+						<div class="btn-group">
+							<button class="buttonG buttonC">
+							<i class="fa fa-angle-left size" ></i>
+							</button>
+							<button class="buttonG buttonC">
+								<i class="fa fa-angle-double-left size" ></i>
+							</button>
+							<button class="buttonG buttonC">
+								<i class="fa fa-refresh size" ></i>
+							</button>
+							<button class="buttonG buttonC">
+								<i class="fa fa-angle-right size" ></i>
+							</button>
+							<button class="buttonG buttonC">
+								<i class="fa fa-angle-double-right size" ></i>
+							</button>			
+						</div>
+					</div>
 				</div>
 			</div>
-			<!--/ banner end -->
 						
 			<!-- contact -->
 			<div class="contact pad" id="contact">
@@ -198,7 +181,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<!-- big icon -->
 								<i class="fa fa-street-view"></i>
 								<!-- contact details  -->
-								<span class="contact-details">#30/67, 5th Street, Mega Market Circle, New Delhi - 625001</span>
+								<span class="contact-details">#30,N G R Layout, Roopena Agrahara, beside Reddy Sangam school, Bengaluru, Karnataka 560068</span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -207,7 +190,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<!-- big icon -->
 								<i class="fa fa-wifi"></i>
 								<!-- contact details  -->
-								<span class="contact-details">music.site@melodi.com</span>
+								<span class="contact-details">riturajreso@gmail.com</span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -216,7 +199,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<!-- big icon -->
 								<i class="fa fa-phone"></i>
 								<!-- contact details  -->
-								<span class="contact-details">555 555 5555</span>
+								<span class="contact-details">+91-8582949025</span>
 							</div>
 						</div>
 					</div>
@@ -269,7 +252,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<a class="h-twitter" href="#"><i class="fa fa-twitter"></i></a>
 					</div>
 					<!-- copy right -->
-					<p class="copy-right">&copy; copyright 2018, All rights are reserved.</p>
+					<p class="copy-right">&copy; copyright 2020, All rights are reserved.</p>
 				</div>
 			</footer>
 			<!-- footer end -->
